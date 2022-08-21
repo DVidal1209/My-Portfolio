@@ -1,0 +1,45 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --navback: #262b2f;
+    --navhback: aquamarine;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--navback);
+    height: 100px;
+}
+
+.header h1{
+    position: relative;
+    display:inline-flex;
+    height: 40%;
+    padding-left: 75px;
+    font-size: 250%;
+    top: 30%;
+    background-color: var(--navhback);
+    color: var(--navback);
+}
+
+.header nav{
+    display: flex;
+    align-items: flex-end;
+    font-size: 150%;    
+}
+
+.header a{
+    text-decoration: underline;
+    color: var(--navhback);
+    margin: 0 30px 10px 30px;
+}
+
+.header a:hover{
+    background-color: var(--navhback);
+    color: var(--navback);
+}
+
