@@ -24,6 +24,7 @@
     top: 30%;
     background-color: var(--navhback);
     color: var(--navback);
+    text-transform: uppercase;
 }
 
 .header nav{
@@ -43,3 +44,20 @@
     color: var(--navback);
 }
 
+.subtitle   {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 250px;
+    background-image: url("https://images.pexels.com/photos/245250/pexels-photo-245250.jpeg?cs=srgb&dl=pexels-vedanti-245250.jpg&fm=jpg");
+}
+
+.subtitle h2{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    right: 5%;
+    font-size: 175%;
+    background-color: var(--navhback);
+    padding: 0 20px 0 20px;
+}
