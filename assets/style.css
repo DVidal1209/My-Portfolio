@@ -193,10 +193,18 @@
 /* Contact us formatting */
 .right ul{
     display: flex;
+
+}
+
+.right a{
+    color: black;
+    text-decoration-color: var(--navhback);
 }
 
 .right ul li{
     min-width: 300px;
     font-size: 110%;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--navhback);
 }
