@@ -42,7 +42,7 @@
 .header a{
     text-decoration: underline;
     color: var(--navhback);
-    margin: 0 30px 10px 30px;
+    margin: 0 20px 10px 20px;
 }
 
 .header a:hover{
@@ -93,6 +93,60 @@
 }
 
 .container .right{
+    display: flex;
+    flex-wrap: wrap;
     width: 79.8%;
     padding-left: 15px;
+}
+
+
+.right #daniel-vidal-image{
+    width: 20%;
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+
+.right p{
+    display: flex;
+    width: 77%;
+    align-items: flex-end;
+}
+
+.right .large-card{
+    display: flex;
+    margin-bottom:  20px;
+}
+
+.right .large-card img{
+    width: 98%;
+    margin: auto;
+    padding: 0px;
+    border: 5px;
+    border-style:solid ;
+    border-color: var(--navhback);
+}
+
+.right .large-card #horiseon{
+    display: flex;
+    position: absolute;
+    background-color: var(--navhback);
+    color: var(--navback);
+    margin: 30% 0 0 5px;
+}
+
+.right .small-card img{
+    width: 45%;
+    margin: auto;
+    padding: 0px;
+    border: 5px;
+    border-style:solid ;
+    border-color: var(--navhback);
+}
+
+.right .small-card #led-wall{
+    display: flex;
+    position: absolute;
+    background-color: var(--navhback);
+    color: var(--navback);
+    margin: 30% 0 0 5px;
 }
