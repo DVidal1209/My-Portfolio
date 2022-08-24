@@ -208,3 +208,12 @@
     text-decoration: underline;
     text-decoration-color: var(--navhback);
 }
+
+/* Resume formatting */
+.right iframe{
+    width: 100%;
+}
+
+#resume{
+    height: 550px;
+}
