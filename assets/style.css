@@ -112,35 +112,62 @@
     align-items: flex-end;
 }
 
+
+/* Visual specifications for large card */
 .right .large-card{
     display: flex;
     margin-bottom:  20px;
-}
-
-.right .large-card img{
-    width: 98%;
-    margin: auto;
-    padding: 0px;
     border: 5px;
-    border-style:solid ;
+    border-style: solid;
     border-color: var(--navhback);
 }
 
+/* Size and brightness of large-card images */
+.right .large-card img{
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    filter: brightness(50%);
+    border-color: var(--navhback);
+}
+
+/* Behavior for when large-card image is hovered */
+.right .large-card img:hover{
+    filter: brightness(100%);
+
+}
+
+/* Banner for horiseon card */
 .right .large-card #horiseon{
-    display: flex;
+    display: inline;
     position: absolute;
+    text-align: justify;
     background-color: var(--navhback);
     color: var(--navback);
-    margin: 30% 0 0 5px;
+    margin: 30% 0 0 0;
 }
 
-.right .small-card img{
+/* Visual specifications for small-cards */
+.right .small-card{
+    display: flex;
     width: 45%;
-    margin: auto;
-    padding: 0px;
     border: 5px;
-    border-style:solid ;
+    border-style: solid;
     border-color: var(--navhback);
+}
+
+/* Size and brightness of small-card images */
+.right .small-card img{
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+    filter: brightness(50%);
+}
+
+/* Behavior for when small-card image is hovered */
+.right .small-card img:hover{
+    filter: brightness(100%);
+
 }
 
 .right .small-card #led-wall{
