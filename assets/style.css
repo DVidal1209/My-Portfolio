@@ -1,12 +1,15 @@
+/* Setting default font for webpage */
 *{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Variables used throughout page */
 :root{
     --navback: #262b2f;
     --navhback: aquamarine;
 }
 
+/* Specifications for the navbar and Name */
 .header{
     display: flex;
     justify-content: space-between;
@@ -15,6 +18,7 @@
     height: 100px;
 }
 
+/* Formatting for the h1 in the navbar */
 .header h1{
     position: relative;
     display:inline-flex;
@@ -27,11 +31,13 @@
     text-transform: uppercase;
 }
 
+/* Specifications for the navigation buttons visuals and behavior */
 .header nav{
     display: flex;
     align-items: flex-end;
     font-size: 150%;    
 }
+
 
 .header a{
     text-decoration: underline;
@@ -44,6 +50,7 @@
     color: var(--navback);
 }
 
+/* Specifications for the area under the navbar */
 .subtitle   {
     display: flex;
     justify-content: flex-end;
@@ -60,4 +67,32 @@
     font-size: 175%;
     background-color: var(--navhback);
     padding: 0 20px 0 20px;
+}
+
+/* Specificatiosn for the areas containing the different sections of information on the page */
+.container{
+    display: flex;
+}
+
+.container .left{
+    display: flex;
+    justify-content: right;
+    width: 20%;
+    padding-right: 10px;
+}
+
+.left h2{
+    font-size: 175%;
+    text-align: right;
+}
+
+.container .divider{
+    width: 0.2%;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.container .right{
+    width: 79.8%;
+    padding-left: 15px;
 }
