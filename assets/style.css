@@ -189,3 +189,12 @@
     color: var(--navback);
     margin: 12% 0 0 -1px;
 }
+
+/* Contact us formatting */
+.right ul{
+    display: flex;
+}
+
+.right ul li{
+    min-width: 250px;
+}
