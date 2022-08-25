@@ -212,7 +212,7 @@
     text-decoration-color: var(--navhback);
 }
 
-/* Resume formatting */
+/* Resumé formatting */
 .right iframe{
     width: 100%;
 }
@@ -221,27 +221,43 @@
     height: 550px;
 }
 
+
+/* Changes the display for tablets */
 @media screen and (max-width: 992px){
-   
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 60%;
+        text-align: center;
+    }
+    .header nav{
+        flex-wrap: wrap;
+    }
+    .header nav a{
+        display: flex;
+        width: 25%;
+    }
     
 }
 
+/* Changes the display for phone screens */
 @media screen and (max-width: 768px){
 
     
     .right .small-card{
         width: 96.8%;
-        flex: col;
+        flex-direction: column;
     }
     .right .large-card{
         width: 96.8%;
-        flex: col;
     }
     
     #contact{
         flex-direction: column;
     }
     .header{
+        display: flex;
         flex-direction: column;
         height: 60%;
         text-align: center;
